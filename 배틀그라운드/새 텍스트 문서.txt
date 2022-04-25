@@ -1,0 +1,16 @@
+제가 말씀 드릴수록, 사고의 넓이가 좁아질 것 같아서 불안하지만..
+'힐을 가장 많이 한 선수를 꼽아라'
+는 다음의 코드부터 시작할 수 있을 것 같아요.
+HealLogs = BattleGround.loc[BattleGround['_T'] == 'LogHeal', :]
+흰색_확인_표시
+두_눈
+두_손을_들고_있는_사람
+반응
+회신
+
+
+이정훈 (강사)  오후 4:56
+'가장 많이 부활시킨 플레이어를 꼽아라'
+는 다음의 코드부터 시작할 수 있습니다.
+Reviver = BattleGround.loc[BattleGround['_T'] == 'LogPlayerRevive', :]
+pd.DataFrame(list(Reviver['reviver']))
